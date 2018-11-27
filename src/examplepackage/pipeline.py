@@ -7,7 +7,7 @@ that it can be reused and easily reproduced.
 import pandas as pd
 
 from examplepackage import features
-from examplepackage.io import IO
+from examplepackage.i_o import IO
 
 
 def run_pipeline(local_data_path: str):

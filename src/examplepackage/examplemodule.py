@@ -39,3 +39,5 @@ def add_value_to_numpy(array: np.ndarray, amount: float = 1) -> np.ndarray:
     # if isinstance(a, np.ndarray):
 
     return array + amount
+
+
