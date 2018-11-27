@@ -26,6 +26,7 @@ def run_pipeline(local_data_path: object) -> object:
     # Add calls to features.Xxx here
     string_to_print=hello_world()
     print(string_to_print)
+    print("hi")
 
 
 
