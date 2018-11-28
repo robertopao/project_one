@@ -14,9 +14,11 @@ import subprocess
 from examplepackage import features
 from examplepackage.i_o import IO
 from examplepackage.examplemodule import hello_world
-from examplepackage.features import my_feature_xxx,run_pipeline,convert_dcm2mif,concatenate
+from examplepackage.features import my_feature_xxx,run_pipeline,convert_dcm2mif,concatenate,denoising
 
 
+
+'''Be aware of using the same structure of the data tree'''
 
 
 def main():
@@ -27,11 +29,20 @@ def main():
     '''convert dcm to mif. The input are generated from the run_pipeline'''
     #convert_dcm2mif(site_sub_files,output_mif)
     '''Concatenate the different files for each subject into one single file'''
-    list_dest_conc=concatenate(output_mif,directory)
-    '''DENOISING'''
+    flag=False #put true if you want run the bash command
+    list_dest_conc=concatenate(output_mif,directory,flag)
 
+    '''denoise the file contained in list_dest_conc'''
+    flag_denoise=True
+    list_dest_denoised=denoising(list_dest_conc,flag_denoise)
 
+    "GIBBS"
+    flag_gibbs = True
+    list_dest_gibbs=denoising(list_dest_denoised,flag_gibbs)
 
+    "PREPROC"
+    flag_preproc = True
+    list_dest_preproc = denoising(list_dest_gibbs, flag_preproc)
 
 
 if __name__ == '__main__':

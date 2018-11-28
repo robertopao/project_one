@@ -97,7 +97,7 @@ def Remove(duplicate):
 
 
 
-def concatenate(output_mif,directory):
+def concatenate(output_mif,directory,flag):
     site=os.listdir(directory)
     site_mif = {}
     site_mif_files = {}
@@ -150,7 +150,52 @@ def concatenate(output_mif,directory):
         temp_1=temp.split('_')[0]+'_'+temp.split('_')[1]+"_DTI.mif"
         destination_conc=temp_0+temp_1
         list_dest_conc.append(destination_conc)
-        bashCommand =("mrcat -axis  3 -force " + site_mif_files[single_index[item][0]] +" "+ site_mif_files[single_index[item][1]]+" "+site_mif_files[single_index[item][2]]+" "+ site_mif_files[single_index[item][3]]+" "+  destination_conc)
-        os.system(bashCommand)
+        if flag == True:
+            bashCommand =("mrcat -axis  3 -force " + site_mif_files[single_index[item][0]] +" "+ site_mif_files[single_index[item][1]]+" "+site_mif_files[single_index[item][2]]+" "+ site_mif_files[single_index[item][3]]+" "+  destination_conc)
+            os.system(bashCommand)
+
     return list_dest_conc
+
+def denoising(list_dest_conc,flag_denoise):
+    list_dest_denoised=list()
+    for i in range (len(list_dest_conc)):
+        s = "/"
+        seq = list_dest_conc[i].split('/')
+        temp = s.join(seq[0:6])+'/DTI-denoised/'
+        temp_1=list_dest_conc[i].split('/')[-1].split('.')[0]+'_denoised.mif'
+        destination_denoised = temp + temp_1
+        list_dest_denoised.append(destination_denoised)
+        if flag_denoise == True:
+            bashCommand =("dwidenoise "+list_dest_conc[i]+' ' +destination_denoised)
+            os.system(bashCommand)
+    return list_dest_denoised
+
+
+def gibbs_ringing(list_dest_denoise,flag_gibbs):
+    list_dest_gibbs=list()
+    for i in range (len(list_dest_denoise)):
+        s = "/"
+        seq = list_dest_denoise[i].split('/')
+        temp = s.join(seq[0:6])+'/DTI-gibbs/'
+        temp_1=list_dest_denoise[i].split('/')[-1].split('.')[0]+'_gibbs.mif'
+        destination_gibbs = temp + temp_1
+        list_dest_gibbs.append(destination_gibbs)
+        if flag_gibbs == True:
+            bashCommand =("mrdegibbs "+list_dest_denoise[i]+' ' +destination_gibbs)
+            os.system(bashCommand)
+    return list_dest_gibbs
+
+def preproc(list_dest_gibbs,flag_preproc):
+    list_dest_preproc=list()
+    for i in range (len(list_dest_gibbs)):
+        s = "/"
+        seq = list_dest_gibbs[i].split('/')
+        temp = s.join(seq[0:6])+'/DTI-preproc/'
+        temp_1=list_dest_gibbs[i].split('/')[-1].split('.')[0]+'_preproc.mif'
+        destination_preproc = temp + temp_1
+        list_dest_preproc.append(destination_preproc)
+        if flag_preproc == True:
+            bashCommand =("dwipreproc -rpe_header -eddy_options \" --slm=linear \" "+list_dest_gibbs[i]+' ' +destination_preproc)
+            os.system(bashCommand)
+    return list_dest_preproc
 
