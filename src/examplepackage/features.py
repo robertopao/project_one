@@ -34,7 +34,7 @@ def my_feature_xxx(df: pd.DataFrame):
 
 
 
-def run_pipeline():
+def run_pipeline(directory):
     """
     Run the main processing pipeline.
 
@@ -48,7 +48,7 @@ def run_pipeline():
 
     # Add calls to features.Xxx here
 
-    directory = '/home/visionlab/Desktop/dMRI_data_harmonization'
+    #directory = main_directory
     site=os.listdir(directory)
     site_dicom={}
     site_dicom_sub={}
@@ -81,4 +81,76 @@ def convert_dcm2mif(site_sub_files,output_mif):
         bashCommand = ("/home/visionlab/mrtrix3/bin/mrconvert " + site_sub_files[i]+" "+ output_mif[i])
         os.system(bashCommand)
     return
+
+
+
+def Remove(duplicate):
+    final_list = []
+    for num in duplicate:
+        if num not in final_list:
+            final_list.append(num)
+    return final_list
+
+
+
+
+
+
+
+def concatenate(output_mif,directory):
+    site=os.listdir(directory)
+    site_mif = {}
+    site_mif_files = {}
+    site_mif_name={}
+    site_DTI={}
+
+    i, k, j = 0, 0, 0
+    for filename in site:
+        site_mif[i] = directory + '/' + filename + '/MIF-raw'
+        site_DTI[i] = directory + '/' + filename + '/DTI-conc'
+        temporary_path = os.listdir(site_mif[i])
+        for another_file in temporary_path:
+            site_mif_files[k] = site_mif[i] + '/' + another_file
+            site_mif_name[k] = another_file
+            k = k + 1
+        i = i + 1
+
+
+    #site_mif_files[0].split('/')[-1].split('_')[1]
+
+    site_mif_name_lst=list(site_mif_name.values())
+    indices={}
+    indices_1=list()
+    for k in range (len(site_mif_name)):
+        indices[k] = [i for i, s in enumerate(site_mif_name_lst) if site_mif_files[k].split('/')[-1].split('_')[1] in s]
+        temp=[i for i, s in enumerate(site_mif_name_lst) if site_mif_files[k].split('/')[-1].split('_')[1] in s]
+        indices_1.append(temp)
+
+
+
+    #[value for value in indices if value != indices[0]]
+    single_index={}
+    j=0
+    while True:
+        single_index[j]=indices_1[0]
+        indices_1 =  [x for x in indices_1 if x != indices_1[0]]
+        j=j+1
+        if len(indices_1)==0:
+            break
+
+
+    #destination_con={}
+    list_dest_conc=list()
+    for item in single_index:
+        single_index[item]
+        s="/"
+        seq=site_mif_files[single_index[item][0]].split('/')
+        temp_0=s.join(seq[0:6])+'/DTI-conc/'
+        temp = site_mif_name[single_index[item][0]]
+        temp_1=temp.split('_')[0]+'_'+temp.split('_')[1]+"_DTI.mif"
+        destination_conc=temp_0+temp_1
+        list_dest_conc.append(destination_conc)
+        bashCommand =("mrcat -axis  3 -force " + site_mif_files[single_index[item][0]] +" "+ site_mif_files[single_index[item][1]]+" "+site_mif_files[single_index[item][2]]+" "+ site_mif_files[single_index[item][3]]+" "+  destination_conc)
+        os.system(bashCommand)
+    return list_dest_conc
 

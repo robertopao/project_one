@@ -14,16 +14,23 @@ import subprocess
 from examplepackage import features
 from examplepackage.i_o import IO
 from examplepackage.examplemodule import hello_world
-from examplepackage.features import my_feature_xxx,run_pipeline,convert_dcm2mif
+from examplepackage.features import my_feature_xxx,run_pipeline,convert_dcm2mif,concatenate
 
 
 
 
 def main():
-    site_sub_files,output_mif = run_pipeline()
+    directory = '/home/visionlab/Desktop/dMRI_data_harmonization'
+    '''This function will explore the different folder inside the main path'''
+    site_sub_files,output_mif = run_pipeline(directory)
+    #print(output_mif)
+    '''convert dcm to mif. The input are generated from the run_pipeline'''
+    #convert_dcm2mif(site_sub_files,output_mif)
+    '''Concatenate the different files for each subject into one single file'''
+    list_dest_conc=concatenate(output_mif,directory)
+    '''DENOISING'''
 
-    print(output_mif)
-    convert_dcm2mif(site_sub_files,output_mif)
+
 
 
 
