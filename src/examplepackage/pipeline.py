@@ -50,7 +50,7 @@ def main():
     list_dest_masked=mask(list_dest_preproc, flag_mask)
 
     "BIAS"
-    flag_bias = True
+    flag_bias = False
     list_dest_bias = bias_correction(list_dest_masked, flag_bias)
 
 
