@@ -1,156 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ab0bf8a-9966-49d6-97cf-22f6aab3d1cd" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/first_project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/stepwise" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/HEAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/description" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/applypatch-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/fsmonitor-watchman.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/post-update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/pre-applypatch.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/pre-commit.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/pre-push.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/pre-rebase.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/pre-receive.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/prepare-commit-msg.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/hooks/update.sample" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/info/exclude" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/00/d2e135a7ee7b81c27fed80ddf6ee341c8d6752" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/06/6a74d41cf1fb450e6e2866c92b6f4cd7d71911" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/08/242430c770a692c13224c4a6b2f8d57d3fd232" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/0b/57fdcbc0660a6fd3a5256e917a44d7f7e479a1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/0b/6aa032600586ae52c439d24606e3b15095a8a3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/0b/7d35255210973fee43cc88a29405807fd217d6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/0d/ae02b95820486935209ee97260dcbb1285b62c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/0e/2e55b277bf4a5350a82deaa89cfe07d781ab2d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/0e/fa98ec67070d4659edc4774e56fdb62049af81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/0f/a82688711619e35e0980cc9f4e25e8483c2746" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/18/c71533339ecab126623e41d1220868829c878f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/1a/4b0289538741e24a9c990da1a94be9b4aaa019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/1f/846b8846735d783f9e61a0039e85cc82fc784a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/1f/cc82f4940ad6153e8a14ebe88203f6203943f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/2b/50035ba8a62995231c1ad30fabd813f88170e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/2d/5021603e586932d89c1a5e3bc5dc6a4703308e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/2d/b439e74947a917f6d023d5ba1e3a0f4595eb70" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/2f/be4eee45d999ca1a9beb796d74dcfce5b8df2b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/31/278d76f21b5b9d5e305e4863ffcfea6d2376b0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/31/d0e02ae2d4224a4487727a1ae4e184e01aaf23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/33/3b762f39301ecfd6634260442d517bf4462e2a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/34/f8324f24f0b92140148fcf6ac8ef40e8e74581" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/35/44b6053e11fb7007934121512b220b5bddb6c0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/38/272f6bca959dfde76861d5325dcc620748ecb1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/3b/e3456b97ddd23747e32256e47ed3cd659a94e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/3d/b8634dddc93eff424c4c2fab6aa8519d541ce2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/4b/64fddff8fd2007323c00a679866dfda88f7993" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/4c/077fa75d8d333dd45aa2d96746a40e724c0e1a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/52/986c1a3fb373c8d01f0eb3a4a9b673537042af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/52/a5f7ee3a331b1c30be7bc3e859513aa52f12b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/52/fa3bfba4533121316016dda2a588eef1900b56" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/54/380784127e40bd1a5525c34cfebcd224faca5d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/57/248de6ebb4034952642319216c825475fad9db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/57/f07ed476a45bf0054e65ff81e195d9ed9372aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/5a/3f977dcb93f1ec10a2a7adb6756ae19d522335" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/5c/577ce35256857f95543923aaee2b98f01eb615" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/5e/09230189b6827e3d2885768e3fd4ddd523d13b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/62/3770383a5c74b72695f065a7890a37276962ad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/62/f0e86d4867c2377e2e3bc48d034b079bd381d4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/66/bb099d07dbb5a7d2dbdd64dbd4fbfce74aae94" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/69/d6625cb1e573df3d15e02d6ff86d92f4b8a427" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/70/e3ff8ef5fc656f6ba559f7f4be012d2a728253" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/71/0fe69732aac4adaa7b08ef0b60bb7be7b686cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/71/9afbde72b149fc1be739a7d13250ddc2e38247" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/71/9dfdbb8085eb041595add5e20eb7fe88445d9d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/72/4dddec71d539441c730711c59dd5c6825a1b7c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/73/507ddbd2be02c226504d0316032f889862132c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/75/d14f59eaafc9542573ae03795ec66c925480b9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/76/00bc91d4e485bb1afe697f1b47004dba0c9d12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/86/85afb806be6e4bd1c878d9680c70cf6f029976" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/86/d64d865dbe984bb1c7ff153ec6e2d1ac73b42a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/91/ab844a47ae598fdb1d3241722bd0f4bb00a9fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/94/80360373dd4d10c0892a9fead1ed240abdef84" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/95/6bbb464f1574b83c474034869d158f779f44e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/99/447f9eedfd3f5d3db8ae2161bf7f14d6700e20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/a0/ad2483d4550dc900f13c0c72fb460719335c5a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/aa/b35388adc1eb1069baa18f7e9571f33447b8df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/b4/0d7c21fc226d100c57f5d334b601590150a73d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/b7/9c4803e1a86b2ae141cb281aaea987e7cedaec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/ba/b635f2a8ad918a21af82e2c112107226abdcf2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/bd/66e2f5475da19c4fa9e726f91bdb4e36e4a8f2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/c2/962d9b69a15f24bb0c22c9d269b63ca13e9d41" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/c4/98f3000048bca4e16a4d097fc746b6501b5007" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/c5/c35f74d79403e9104bd832c4e2ff52be3292a7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/c6/ab2f6a769fe9d859b66b32c0253173f2aaadc2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/c7/80c39564289bbfe71f526b17c3d2c1cd87aaec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/c7/b485eced1ae2120acb919f7f482ff5f79e3214" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/c8/8064fbb990d2b0b8c1152234eb43a4eb2aee70" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/cc/da7c02099196627225a9984d2a4f4413906d72" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/cd/8c7ae5ef94fbe99fb051976e3040b8e5d2175d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/cf/e3399744c9db5097aa65dbed203958ae79ce9f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/d0/6f3f929fec1af4b15041a546c9e76f8391d893" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/d2/e927d27f9b8cd93f9ce9f90635622e78887d9d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/d4/5f937f860aac59b0e2c1246271585c95840e1e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/d4/ff0244474af8fa4d3a6876725880b78fb1d826" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/d5/7873b1d06befff64c202cbe5adc3751e2afb1c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/d7/b717048cbc594238349031f679a73d8c186518" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/d8/460eefdd5a7a048ec6e484c0adaf5625163292" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/de/8bb87f7144ec6bc80adabd2ba09f15c5f0c514" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/df/2fd77db8c81ceb4ae1cd2f153f0bbc7e3555e5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/df/a5d1e559b590ef053eb43af4f37b465519ea9f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/e7/712727456059c832ba2e126cf35fce9be1a573" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/ec/b780f185cf1520c2c870d3447c5a21686bdb11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/ee/b8c990bc82fcc788b6638d2da421cdee5279b8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/ee/c8f39abd93dd25fcfca50e214e0cc1a7da7a09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/f3/7178120ffd5115f1347d3e71317b68f5889481" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/f4/09ca3458915445aa0b78555bf240cd1640ce53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/f5/6ab07fa7174a65e56b162943fd7e3dc8970bd3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/f7/8948a1d1334ed077dde63d2c2a7b5d540b5075" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/objects/fa/3b4bd2a10b76fbb2b3c1aa989d2b96a82b2b21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_one.git/packed-refs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examplepackage/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examplepackage/examplemodule.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examplepackage/features.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/examplepackage/features.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examplepackage/i_o.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examplepackage/pipeline.py" beforeDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/first_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/stepwise" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example_datascience_project.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example_datascience_project.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example_datascience_project.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example_datascience_project.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example_datascience_project.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examplepackage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examplepackage/examplemodule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examplepackage/features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examplepackage/i_o.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/examplepackage/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/examplepackage/pipeline.py" afterDir="false" />
->>>>>>> pipeline
+    <list default="true" id="d625e04f-d5a9-4d92-811a-7e0a8081978f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,31 +12,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/examplepackage/pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/examplepackage/pipeline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
->>>>>>> pipeline
-              <folding>
-                <element signature="e#226#245#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
-=======
-      <file pinned="false" current-in-tab="false">
->>>>>>> pipeline
         <entry file="file://$PROJECT_DIR$/src/examplepackage/features.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="728">
@@ -193,37 +30,10 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examplepackage/examplemodule.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
->>>>>>> pipeline
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/examplepackage/examplemodule.py" />
-        <option value="$PROJECT_DIR$/src/examplepackage/i_o.py" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/examplepackage/pipeline.py" />
-        <option value="$PROJECT_DIR$/src/examplepackage/features.py" />
-=======
-        <option value="$PROJECT_DIR$/src/examplepackage/features.py" />
-        <option value="$PROJECT_DIR$/src/examplepackage/pipeline.py" />
->>>>>>> pipeline
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
@@ -236,6 +46,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,14 +57,6 @@
             <path>
               <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="first_project" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
-              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_project" type="462c0819:PsiDirectoryNode" />
->>>>>>> pipeline
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,12 +69,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/anaconda3/envs/rob_environment" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,70 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pipeline">
-    <configuration name="features" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="first_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/examplepackage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/examplepackage/features.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="i_o" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="first_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/examplepackage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/examplepackage/i_o.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="io" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="first_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/examplepackage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/examplepackage/io.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="first_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -370,31 +105,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in examplemodule" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="first_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/examplepackage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/examplepackage/examplemodule.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.pipeline" />
-        <item itemvalue="Python.features" />
-        <item itemvalue="Python tests.Doctests in examplemodule" />
-        <item itemvalue="Python.i_o" />
-        <item itemvalue="Python.io" />
       </list>
     </recent_temporary>
   </component>
@@ -403,57 +116,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ab0bf8a-9966-49d6-97cf-22f6aab3d1cd" name="Default Changelist" comment="" />
-      <created>1543310994597</created>
+      <changelist id="d625e04f-d5a9-4d92-811a-7e0a8081978f" name="Default Changelist" comment="" />
+      <created>1544009279873</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1543310994597</updated>
+      <updated>1544009279873</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Doctests_in_examplemodule - 2018.11.27 at 12h 03m 11s.xml">
-      <configuration name="Doctests in examplemodule" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Doctests_in_examplemodule - 2018.11.27 at 12h 04m 24s.xml">
-      <configuration name="Doctests in examplemodule" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19922523" />
-=======
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20143884" />
->>>>>>> pipeline
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
-<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
-=======
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991276" />
->>>>>>> pipeline
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293348" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293348" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3293348" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -463,74 +150,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-<<<<<<< HEAD
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/examplepackage/features.py</url>
           <line>234</line>
-          <option name="timeStamp" value="101" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-=======
->>>>>>> pipeline
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/reporting/dashwebapp/app.py" />
-    <entry file="file://$PROJECT_DIR$/tests/examplepackage/examplemodule/test_hello_world.py" />
-    <entry file="file://$PROJECT_DIR$/tests/examplepackage/examplemodule/test_add_value_to_numpy.py" />
-    <entry file="file://$PROJECT_DIR$/src/examplepackage/io.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/rob_environment/lib/python3.6/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3728">
-          <caret line="451" selection-start-line="451" selection-end-line="451" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py" />
-    <entry file="file://$PROJECT_DIR$/src/examplepackage/i_o.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#258#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_notebook.py" />
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/examplepackage/pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
-          <folding>
-            <element signature="e#226#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-=======
->>>>>>> pipeline
-    <entry file="file://$PROJECT_DIR$/src/examplepackage/examplemodule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="165">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -541,18 +174,5 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/src/examplepackage/pipeline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="e#226#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> pipeline
   </component>
 </project>
