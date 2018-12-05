@@ -231,6 +231,6 @@ def bias_correction(list_dest_masked,flag_bias):
         if flag_bias == True:
             bashCommand =("dwibiascorrect -ants " +list_dest_masked[i]+' '+destination_masked)
             os.system(bashCommand)
-           
+            print("ok")
     return list_dest_bias
 
