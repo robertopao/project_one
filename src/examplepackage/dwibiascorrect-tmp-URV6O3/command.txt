@@ -1,1 +1,0 @@
-/home/visionlab/mrtrix3/bin/dwibiascorrect -ants /home/visionlab/Desktop/dMRI_data_harmonization/UZA/DTI-masked/UZA_7sBn847_DTI_denoised_gibbs_preproc_masked.mif /home/visionlab/Desktop/dMRI_data_harmonization/UZA/DTI-bias/UZA_7sBn847_DTI_denoised_gibbs_preproc_masked_bias.mif

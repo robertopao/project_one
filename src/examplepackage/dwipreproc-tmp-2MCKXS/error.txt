@@ -1,9 +1,0 @@
-eddy_openmp --imain=eddy_in.nii --mask=eddy_mask.nii --acqp=eddy_config.txt --index=eddy_indices.txt --bvecs=bvecs --bvals=bvals --topup=field --slm=linear --out=dwi_post_eddy
-
-Segmentation violation, Address not mapped, Offending address = 0x403dbd5c4
-eddy_openmp ) [0x558dd3] [
-eddy_openmp ) [0x563397] [
-eddy_openmp ) [0x56381d] [
-eddy_openmp ) [0x47ce01] [
-eddy_openmp ) [0x47e1ae] [
-

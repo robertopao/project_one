@@ -1,1 +1,0 @@
-/home/visionlab/mrtrix3/bin/dwipreproc -rpe_header -eddy_options  --slm=linear  /home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-gibbs/PEC_3hnK569_DTI_denoised_gibbs.mif /home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_3hnK569_DTI_denoised_gibbs_preproc.mif

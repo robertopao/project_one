@@ -1,5 +1,0 @@
-mrconvert /home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-masked/PEC_3hnK569_DTI_denoised_gibbs_preproc_masked.mif /home/visionlab/uantwerp_lab/first_project/src/examplepackage/dwibiascorrect-tmp-VEYFCU/in.mif
-
-mrconvert: [ERROR] failed to open key/value file "/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-masked/PEC_3hnK569_DTI_denoised_gibbs_preproc_masked.mif": No such file or directory
-mrconvert: [ERROR] error opening image "/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-masked/PEC_3hnK569_DTI_denoised_gibbs_preproc_masked.mif"
-
