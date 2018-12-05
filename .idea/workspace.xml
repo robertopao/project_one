@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ab0bf8a-9966-49d6-97cf-22f6aab3d1cd" name="Default Changelist" comment="" />
+    <list default="true" id="5ab0bf8a-9966-49d6-97cf-22f6aab3d1cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/first_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/stepwise" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example_datascience_project.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examplepackage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examplepackage/examplemodule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examplepackage/features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examplepackage/i_o.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examplepackage/pipeline.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/examplepackage/pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
-              <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
               <folding>
                 <element signature="e#226#245#0" expanded="true" />
               </folding>
@@ -46,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="40" />
     <option name="width" value="1400" />
@@ -242,7 +263,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <frame x="67" y="27" width="1853" height="1053" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19922523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -284,42 +305,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1890" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reporting/dashwebapp/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/examplepackage/examplemodule/test_hello_world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/examplepackage/examplemodule/test_add_value_to_numpy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/reporting/dashwebapp/app.py" />
+    <entry file="file://$PROJECT_DIR$/tests/examplepackage/examplemodule/test_hello_world.py" />
+    <entry file="file://$PROJECT_DIR$/tests/examplepackage/examplemodule/test_add_value_to_numpy.py" />
     <entry file="file://$PROJECT_DIR$/src/examplepackage/io.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/rob_environment/lib/python3.6/tokenize.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -342,15 +331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py" />
     <entry file="file://$PROJECT_DIR$/src/examplepackage/i_o.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -361,17 +342,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_notebook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_notebook.py" />
     <entry file="file://$PROJECT_DIR$/src/examplepackage/pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
-          <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
           <folding>
             <element signature="e#226#245#0" expanded="true" />
           </folding>
