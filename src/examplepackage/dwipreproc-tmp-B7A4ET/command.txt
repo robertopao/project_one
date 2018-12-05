@@ -1,0 +1,1 @@
+/home/visionlab/mrtrix3/bin/dwipreproc -rpe_header -eddy_options  --slm=linear  /home/visionlab/Desktop/dMRI_data_harmonization/UZA/DTI-gibbs/UZA_7sBn847_DTI_denoised_gibbs.mif /home/visionlab/Desktop/dMRI_data_harmonization/UZA/DTI-preproc/UZA_7sBn847_DTI_denoised_gibbs_preproc.mif

@@ -199,3 +199,37 @@ def preproc(list_dest_gibbs,flag_preproc):
             os.system(bashCommand)
     return list_dest_preproc
 
+
+def mask(list_dest_preproc,flag_mask):
+    list_dest_masked=list()
+    for i in range (len(list_dest_preproc)):
+        s = "/"
+        seq = list_dest_preproc[i].split('/')
+        temp = s.join(seq[0:6])+'/DTI-masked/'
+        temp_1=list_dest_preproc[i].split('/')[-1].split('.')[0]+'_mask.mif'
+        destination_masked = temp + temp_1
+        temp_2 = list_dest_preproc[i].split('/')[-1].split('.')[0] + '_masked.mif'
+        destination_masked_2 = temp + temp_2
+        list_dest_masked.append(destination_masked_2)
+        if flag_mask == True:
+            bashCommand =("dwi2mask " +list_dest_preproc[i]+' '+destination_masked)
+            os.system(bashCommand)
+            bashCommand = ("mrcalc " + list_dest_preproc[i] +" "+destination_masked +" -mult "+destination_masked_2 )
+            os.system(bashCommand)
+    return list_dest_masked
+
+
+def bias_correction(list_dest_masked,flag_bias):
+    list_dest_bias=list()
+    for i in range (len(list_dest_masked)):
+        s = "/"
+        seq = list_dest_masked[i].split('/')
+        temp = s.join(seq[0:6])+'/DTI-bias/'
+        temp_1=list_dest_masked[i].split('/')[-1].split('.')[0]+'_bias.mif'
+        destination_masked = temp + temp_1
+        list_dest_bias.append(destination_masked)
+        if flag_bias == True:
+            bashCommand =("dwibiascorrect -ants " +list_dest_masked[i]+' '+destination_masked)
+            os.system(bashCommand)
+    return list_dest_bias
+
