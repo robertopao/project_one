@@ -1,0 +1,1000 @@
+  162  mrview
+  163  sudo apt install libcanberra-gtk0
+  164  cd mrtrix3
+  165  ./configure
+  166  mrview
+  167  cd mrtrix3_reg_mul_cont/
+  168  cd mrtrix3/
+  169  ./config
+  170  ls
+  171  ./configure
+  172  mrview
+  173  cd 
+  174  amp2sh 
+  175  population_template
+  176  population_templatepop
+  177  exit
+  178  population_template
+  179  cd
+  180  git clone https://github.com/Statoil/data-science-template myproject
+  181  cd myproject/
+  182  rm -rf .git<br/>
+  183  git clone https://github.com/Statoil/data-science-template visionlab_project
+  184  cd visionlab_project/
+  185  rm -rf .git
+  186  git init
+  187  git add .
+  188  git commit -m "initial commit"
+  189  git config --global robertopao@live.com
+  190  git config --global "robertopao@live.com"
+  191  git config --global "robertopao"
+  192  git config --global "robertopao@live.com"
+  193  git config --global user.email "robertopao@live.com"
+  194  git config --global user.name "robertopao"
+  195  git commit -m "initial commit"
+  196  git remote add origin REMOTE-REPOSITORY-URL
+  197  git remote
+  198  git push origin master
+  199  git remote add origin https://github.com/robertopao/project_1.git
+  200  git remote add origin https://github.com/robertopao/project_2.git
+  201  git remote -rm origin https://github.com/robertopao/project_2.git
+  202  git remote remove origin REMOTE-REPOSITORY-URL
+  203  git remote add origin https://github.com/robertopao/project_1.git
+  204  git remote set-url origin https://github.com/robertopao/project_1.git
+  205  git remote -v
+  206  git push origin master
+  207  git branch
+  208  git status
+  209  git clone https://github.com/robertopao/project_1.git
+  210  git clone https://github.com/kennethreitz/samplemod.git
+  211  git clone https://github.com/robertopao/project_1.git
+  212  git init
+  213  rm -rf .git
+  214  git init
+  215  git add .
+  216  git rm--cached project_1
+  217  git rm --cached project_1
+  218  git rm --cached project_1 -f
+  219  git clone https://github.com/Statoil/data-science-template first_project
+  220  cd first_project/
+  221  rm -rf
+  222  git init
+  223  git add.
+  224  git add .
+  225  git commit -m "Initial commit"<br/>
+  226  git commit -m "Initial commit"
+  227  git remote add origin https://github.com/robertopao/first_project.git
+  228  git remote set-url origin https://github.com/robertopao/first_project.git
+  229  git remote -v
+  230  git push origin master
+  231  git checkout
+  232  pytest
+  233  pip install pytest
+  234  pip3 install pytest
+  235  pytest
+  236  sudo apt install python-pytest
+  237  pytest
+  238  cd /tmp
+  239  curl -O https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+  240  sudo apt install curl
+  241  curl -O https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+  242  sha256sum Anaconda3-5.2.0-Linux-x86_64.sh
+  243  bash Anaconda3-5.2.0-Linux-x86_64.sh
+  244  source ~/.bashrc
+  245  conda list
+  246  for file in /dir/*; do exit; exit() done
+  247  cd uantwerp_lab/
+  248  cd first_project/
+  249  conda env create --file conda_env.yml
+  250  python setup.py develop
+  251  source activate my_environment
+  252  conda remove --name my_environment --all
+  253  source deactivate my_environment
+  254  activate python
+  255  source activate python
+  256  source activate my_environment
+  257  source activate python
+  258  source deactivate my_environment
+  259  conda remove --name my_environment --all
+  260  git commit -"update name enviroment"
+  261  git commit -m "update name enviroment"
+  262  git push
+  263  git commit -m "update name enviroment"
+  264  git add change
+  265  git add 
+  266  git add .
+  267  git commit -m "update name enviroment"
+  268  git push
+  269  git status
+  270  conda env create --file conda_env.yml
+  271  python setup.py develop
+  272  source activate rob_environment
+  273  pytest
+  274  git commit -m "first comment"
+  275  git branch
+  276  git remote -v
+  277  git remote rm destination
+  278  git remote rm origin
+  279  git remote -v
+  280  git init
+  281  git remote -v
+  282  git add .
+  283  git commit -m "first comment"
+  284  git remote add origin https://github.com/robertopao/project_1.git
+  285  git remote -v
+  286  git push origin master
+  287  rm -rf .git
+  288  git remote -v
+  289  git init
+  290  git add
+  291  git add .
+  292  git commit -m "Initial commit"
+  293  git remote add origin https://github.com/robertopao/project_one.git
+  294  git remote -v
+  295  git push origin master
+  296  pytest
+  297  pip install statoilds
+  298  pip install panda
+  299  pip install pandas
+  300  git add .
+  301  git commit -m "change name io"
+  302  git push
+  303  git push origin master
+  304  cd 
+  305  mrview
+  306  cd uantwerp_lab/
+  307  ls
+  308  cd first_project/
+  309  git add .
+  310  git commit -m "first run"
+  311  git push
+  312  git push origin master
+  313  git add .
+  314  git commit -m "maira has arrived in the visionlab"
+  315  git push origin master
+  316  cd uantwerp_lab/
+  317  ls
+  318  cd first_project/
+  319  git add .
+  320  git commit -m "dicom to mif added"
+  321  git push origin master
+  322  cd 
+  323  cd DICOM-raw/
+  324  ls
+  325  cd 2GWP485_MR1/
+  326  cd scans/
+  327  mrconvert 9_DTI/ 9_DTI.mif
+  328  mrinfo 9_DTI.mif
+  329  mrinfo -petable 9_DTI.mif
+  330  mrview 
+  331  mrconvert 9_DTI/ 9_DTI.mif
+  332  mrinfo 9_DTI.mif
+  333  mrinfo -gwtable 9_DTI.mif
+  334  mrinfo -dwgrad 9_DTI.mif
+  335  mrinfo -petable 9_DTI.mif
+  336  mrview
+  337  mrconvert 11_DTI/ 11_DTI.mif
+  338  mrinfo 11_DTI.mif
+  339  mrinfo -dwgrad 11_DTI.mif
+  340  mrinfo -petable 11_DTI.mif
+  341  mrconvert 11_DTI/ 11_DTI.mif
+  342  mrview 
+  343  mrconvert 8_DTI/ 8_DTI.mif
+  344  mrinfo 8_DTI.mif
+  345  mrinfo -dwgrad 8_DTI.mif
+  346  mrview
+  347  cd scans/
+  348  mrconvert 13_DTI/ 13_DTI.mif
+  349  mrinfo 13_DTI.mif
+  350  mrinfo -petable 13_DTI.mif
+  351  cat /proc/cpuinfo | grep 'core id'
+  352  nproc
+  353  source activate rob_environment
+  354  mrview
+  355  fsl
+  356  type mrtrix
+  357  type mrview 
+  358  gedit .profile
+  359  mrview
+  360  cd uantwerp_lab/
+  361  cd first_project/
+  362  git add.
+  363  git add .
+  364  git commit -m "converting dcm to mif done"
+  365  git push
+  366  git push origin master
+  367  git status
+  368  git log
+  369  cd uantwerp_lab/
+  370  cd first_project/
+  371  fsl
+  372  .bashrc
+  373  cd 
+  374  down vote
+  375  User specific, hidden by default.
+  376  ~/.bashrc
+  377  sudo ~/.bashrc
+  378  gedit ~./bashrc
+  379  gedit ~/.bashrc
+  380  sudo apt-get install unrar
+  381  sudo apt-get update
+  382  sudo apt-get install unrar
+  383  unrar e -r Downloads/Summer_school_assignments.rar 
+  384  unrar e -r Downloads/Summer_school_assignments.rar  Desktop/
+  385  sub
+  386  subl
+  387  subl /.bashrc
+  388  subl ~/.bashrc
+  389  subl ~/.profile
+  390  runROBEX.sh  
+  391  ls
+  392  . runROBEX.sh
+  393  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_4hff352_MR1_9_DTI.mif' 
+  394  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_4hff352_MR1_9_DTI.mif' '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_4hff352_MR1_15_b0.mif' 
+  395  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_4hff352_MR1_22_b0.mif' 
+  396  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_4hff352_MR1_16_DTI.mif' 
+  397  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_7_b0.mif' 
+  398  mrinfo -petable '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_7_b0.mif' 
+  399  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_8_DTI.mif' 
+  400  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_9_b0.mif' 
+  401  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_9_b0.mif' -petbale
+  402  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_9_b0.mif' -petable
+  403  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_8_DTI.mif' -petable
+  404  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_10_DTI.mif' 
+  405  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_10_DTI.mif' -petable
+  406  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3AfD936_MR1_10_DTI.mif' -dwgrad
+  407  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3NLk545_MR1_9_b0.mif' 
+  408  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/STO/MIF-raw/STO_3NLk545_MR1_9_b0.mif' -petable
+  409  cd uantwerp_lab/
+  410  cd first_project/
+  411  git add .
+  412  git commit -m "concatione function is done"
+  413  git push origin master
+  414  mrview 
+  415  mrinfo -petable '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-denoised/PEC_6FAY794_DTI_denoised.mif' 
+  416  mrview
+  417  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/DTI-denoised/CAMPRISMA_2GWP485_DTI_denoised.mif'  -petable
+  418  git add .
+  419  git commit -m "gibbs and preproc added but not tested"
+  420  git push origin master
+  421  mrview 
+  422  tymve mrview
+  423  type mrview
+  424  Pycharm
+  425  mrview
+  426  mrinfo 
+  427  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' 
+  428  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' -petable
+  429  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-conc/PEC_6FAY794_DTI.mif' -petable
+  430  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-denoised/PEC_6FAY794_DTI_denoised.mif' 
+  431  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-denoised/PEC_6FAY794_DTI_denoised.mif'  -petable
+  432  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-gibbs/PEC_6FAY794_DTI_denoised_gibbs.mif' -petable
+  433  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_3ULd333_DTI_denoised_gibbs_preproc.mif' -petable
+  434  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_3ULd333_DTI_denoised_gibbs_preproc.mif' -gwtable
+  435  mrinfo -gwtable 9_DTI.mif
+  436  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_3ULd333_DTI_denoised_gibbs_preproc.mif' -dwgrad
+  437  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-conc/PEC_3ULd333_DTI.mif' -dwtable
+  438  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-conc/PEC_3ULd333_DTI.mif' -dwgrad
+  439  mrinfo -dwgrad
+  440  mrinfo -dwgrad '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_10_b0.mif' 
+  441  mrinfo -dwgrad '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_17_b0.mif' 
+  442  mrinfo -dwgrad'/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_9_DTI.mif'  
+  443  mrinfo -dwgrad'/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_9_DTI.mif' 
+  444  mrinfo -dwgrad '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_9_DTI.mif' 
+  445  mrinfo -dwgrad '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_11_DTI.mif' 
+  446  mrinfo -petable '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_11_DTI.mif' 
+  447  mrinfo  '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/MIF-raw/PEC_3ULd333_MR1_11_DTI.mif' 
+  448  mrinfo  '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_3LgY746_MR1_17_DTI.mif' 
+  449  mrinfo  '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_3LgY746_MR1_17_DTI.mif'  -petable
+  450  mrinfo  '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_3LgY746_MR1_17_DTI.mif'  -dwgrad
+  451  mrinfo  -dwgrad
+  452  mrinfo  -dwgrad '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_3LgY746_MR1_16_b0.mif' 
+  453  mrinfo  -petable '/home/visionlab/Desktop/dMRI_data_harmonization/CAMPRISMA/MIF-raw/CAMPRISMA_3LgY746_MR1_16_b0.mif' 
+  454  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' 
+  455  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' -dwgrad
+  456  amp2sh
+  457  amp2sh '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif'  '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc_sphe_arm.mif' 
+  458  amp2sh '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif'  '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc_sphe_arm.mif' -normalise
+  459  mrconvert '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif'  -strides -1,2,3 -export_grad_fsl bvec bval PEC_6FAY794DTI_denoise_gibbs_preproc.nii
+  460  mrconvert '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif'  -strides -1,2,3 -export_grad_fsl bvec bval /home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii
+  461  mrconvert '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif'  -strides -1,2,3 -export_grad_fsl bvec bval /home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii -force
+  462  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii'  -m 
+  463  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii'  -m bet DTI_denoised_gibbs_preproc.nii DTI_bet_mask.nii 
+  464  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii'  bet DTI_denoised_gibbs_preproc.nii DTI_bet_mask.nii -m
+  465  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii'  /home/visionlab/Desktop/work_dir/DTI_bet_mask.nii -m
+  466  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii'  /home/visionlab/Desktop/work_dir/DTI_bet_mask.nii -m -f 0.2 -force
+  467  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii'  /home/visionlab/Desktop/work_dir/DTI_bet_mask.nii -m -f 0.2
+  468  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii'  /home/visionlab/Desktop/work_dir/DTI_bet_mask.nii -m -f 0.8
+  469  ROBEX.sh
+  470  ROBEX
+  471  cd 
+  472  remotes::install_github("muschellij2/robex")
+  473  install_github("muschellij2/robex")
+  474  runROBEX 
+  475  ./runROBEX 
+  476  ./runROBEX.sh
+  477  ls
+  478  mrview 
+  479  itksnap
+  480  tar -zxvf itksnap-3.8.0-beta-20181028-Linux-x86_64.tar.gz itksnap-3.8.0-beta-20181028-Linux-gcc64/
+  481  ./runROBEX.sh '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_10_b0_dcm.nii.gz' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_10_b0_dcm_masked.nii.gz' [mask_1.nii.gz] 
+  482  ./runROBEX.sh
+  483  ./runROBEX.sh  '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc.nii' '/home/visionlab/Desktop/work_dir/PEC_6FAY794DTI_denoise_gibbs_preproc_ROBEX.nii' [mask.nii] 
+  484  mrconvert '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_10_b0.mif' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_10_b0_dcm.nii.gz'  
+  485  sudo cp -av ./itksnap-3.8.0-beta-20181028-Linux-gcc64/ /usr/local
+  486  mrconvert '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1.mif' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz' 
+  487  itksnap
+  488  sudo apt install itksnap
+  489  itksnap 
+  490  itksnap
+  491  mrview 
+  492  cd /home/visionlab/Desktop/work_dir/registration_folder
+  493  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc.nii.gz' -strides -1,2,3 
+  494  dwiextract '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zeros.mif' -bzero 
+  495  mrmath '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zeros.mif' mean '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zeros.mif' 
+  496  mrmath '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zeros.mif' mean '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.mif' -axis 3 
+  497  mrconvert  -strides -1,2,3 '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz'  
+  498  cd ~/bin/ants
+  499  ccmake ~/code/ANTs
+  500  sudo apt install cmake-curses-gui
+  501  ccmake ~/code/ANTs
+  502  make
+  503  cd 
+  504  dwibiascorrect -ants
+  505  dwibiascorrect -ants '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked_bias.mif' 
+  506  which antsRegistration
+  507  cd ~/bin/ants
+  508  ls
+  509  cd ..
+  510  ls
+  511  cd ants/
+  512  cd /etc
+  513  export ANTSPATH=${HOME}/bin/ants/bin/
+  514  export PATH=${ANTSPATH}:$PATH
+  515  which antsRegistration
+  516  htop
+  517  cd ~/bin/ants
+  518  ls
+  519  cd bin
+  520  ls
+  521  where ants
+  522  which ants
+  523  cd ~/code
+  524  ls
+  525  cd ANTs/
+  526  ls
+  527  cd ~/bin/ants
+  528  ls
+  529  cd ~/code
+  530  cd ANTs/
+  531  ls
+  532  cd Scripts/
+  533  ls
+  534  cd
+  535  sudo apt-get install ant
+  536  dwibiascorrect  -ants
+  537  dwibiascorrect  -ants '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked_bias.mif' 
+  538  cd ~/code
+  539  ls
+  540  cd ~/bin/ants
+  541  ls
+  542  git clone https://github.com/stnava/ANTs.git
+  543  cd ANTs/
+  544  ls
+  545  cd ..
+  546  ls
+  547  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-preproc/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' 
+  548  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-gibbs/PEC_6FAY794_DTI_denoised_gibbs.mif' 
+  549  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-gibbs/PEC_6FAY794_DTI_denoised_gibbs.mif' -dwgrad
+  550  mrinfo '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' 
+  551  mrinfo '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' -dwgrad
+  552  mrinfo '/home/visionlab/Desktop/work_dir/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif' -petable
+  553  ./runROBEX.sh '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_robex.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_robex_mask.nii.gz'  
+  554  cd Downloads/
+  555  ls
+  556  cd ROBEXv12.linux64/
+  557  ls
+  558  cd ROBEX/
+  559  ls
+  560  ./runROBEX.sh 
+  561  ./runROBEX.sh '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz'  '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm_mask.nii.gz' mask_3.nii.gz 
+  562  ./runROBEX.sh '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz'  '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm_mask.nii.gz'  /home/visionlab/Desktop/work_dir/mask_3.nii.gz
+  563  cd 
+  564  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm_bet.nii.gz' -m '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm_bet_just_mask.nii.gz'  
+  565  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm_bet.nii.gz' -m   
+  566  mrconvert '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1.mif' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz' -strides -1,2,3 
+  567  mrconvert '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1.mif' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz' -strides -1,2,3 -force
+  568  bet '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz' '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm_bet.nii.gz' -m   
+  569  cd Downloads/
+  570  ls
+  571  cd ROBEXv12.linux64/
+  572  ls
+  573  cd ROBEX/
+  574  ls
+  575  ./runROBEX.sh '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm.nii.gz'  '/home/visionlab/Desktop/work_dir/PEC_6FAY794_MR1_3_T1_dcm_mask.nii.gz'  /home/visionlab/Desktop/work_dir/ROBEX.nii.gz
+  576  ./runROBEX.sh '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_ROBEX_result.nii.gz'   '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_ROBEX_mask.nii.gz'  
+  577  bet '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET.nii.gz' -m '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_mask_BET.nii.gz'  
+  578  bet '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET.nii.gz' -m'/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_mask_BET.nii.gz'  
+  579  bet '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET.nii.gz' -m '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_mask_BET.nii.gz'  
+  580  bet '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET.nii.gz' -m /home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_mask_BET.nii.gz  
+  581  bet '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET.nii.gz' -m   
+  582  bet '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET.nii.gz' -m   -f 0.7
+  583  bet '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET.nii.gz' -m   -f 0.4
+  584  mrcalc '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_B_zero_mean_stripped_BET_mask.nii.gz' -mult '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif' 
+  585  dwibiascorrect -ants 
+  586  dwibiascorrect -ants '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked_bias.mif' 
+  587  cd 
+  588  mkdir ~/code 
+  589  cd ~/code
+  590  git clone https://github.com/stnava/ANTs.git
+  591  mkdir -p ~/bin/ants
+  592  cd ~/bin/ants
+  593  ccmake ~/code/ANTs
+  594  sudo apt-get -y install cmake
+  595  which cmake
+  596  cmake --version
+  597  which antsRegistration
+  598  cd ~/bin/ants
+  599  git config --global url."https://".insteadOf git://
+  600  export ANTSPATH=${HOME}/bin/ants/bin/
+  601  export PATH=${ANTSPATH}:$PATH
+  602  which antsRegistration
+  603  gedit ~/.bash_profile
+  604  cd 
+  605  gedit ~/.bash_profile
+  606  gedit ~/.profile
+  607  mkdir ~/code 
+  608  cd ~/code
+  609  git clone https://github.com/stnava/ANTs.git
+  610  mkdir -p ~/bin/ants
+  611  cd ~/bin/ants
+  612  ccmake ~/code/ANTs
+  613  make -j 2
+  614  itksnap 
+  615  dwibiascorrect -ants '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked_bias.mif'  
+  616  Dwi2mask
+  617  dwi2mask 
+  618  dwi2mask '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc.mif' '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_mask_dwi2mask.mif' 
+  619  mrview 
+  620  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc.mif'
+  621  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc.mif' -dwtable
+  622  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc.mif' -dwtab
+  623  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc.mif' -dwgrad
+  624  mrcalc '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_mask_dwi2mask.mif'  -mult result.mif 
+  625  mrcalc '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_mask_dwi2mask.mif'  -mult '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_result_mask.mif' 
+  626  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_result_mask.mif' 
+  627  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_result_mask.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_result_mask_spherical_harmonic.mif' 
+  628  mrview
+  629  whereis pycharm
+  630  pycharm-community 
+  631  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked_SH.mif' 
+  632  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked_SH.mif' -normalise
+  633  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/PEC_6FAY794_DTI_denoised_gibbs_preproc_masked_SH.mif' -normalise -force
+  634  mrview
+  635  subl ~/.profile
+  636  mrview
+  637  mrview 
+  638  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_result_mask.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/CAMPRISMA_2GWP485_DTI_denoised_gibbs_preproc_result_mask_spherical_harmonic.mif'  -force -normalise
+  639  dwibiascorrect -ants '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif' 
+  640  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_SH.mif' -normalise 
+  641  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-bias/PEC_2AMX358_DTI_denoised_gibbs_preproc_masked_bias.mif' 
+  642  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-bias/PEC_2AMX358_DTI_denoised_gibbs_preproc_masked_bias.mif' -dwgrad
+  643  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-bias/PEC_2AMX358_DTI_denoised_gibbs_preproc_masked_bias.mif' -dpetable
+  644  mrinfo '/home/visionlab/Desktop/dMRI_data_harmonization/PEC/DTI-bias/PEC_2AMX358_DTI_denoised_gibbs_preproc_masked_bias.mif' -petable
+  645  mrhistogram 
+  646  mrhistogram -ignorezero '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif' 
+  647  mrhistogram -ignorezero '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_hist.mif' 
+  648  mrhistogram -ignorezero '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_hist.png' 
+  649  mrhistogram -ignorezero '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_hist' 
+  650  mrhistogram -ignorezero '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_hist.jpg' 
+  651  apt install default-jre
+  652  sudo apt install default-jre
+  653  unzip ij*.zip -d ~
+  654  cd Downloads/
+  655  unzip ij*.zip -d ~
+  656  unzip ij152*.zip -d ~
+  657  mrconvert '/home/visionlab/Desktop/dMRI_data_harmonization/TRO/DTI-preproc/TRO_1yRz315_DTI_denoised_gibbs_preproc.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_nifti.nii.gz' -strides -1,2,3 
+  658  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty.nii.gz' -strides -1,2,3 
+  659  cd 
+  660  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_SH_non_negativa.mif' -negative  -normalise 
+  661  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_SH_non_negativa.mif' -nonnegative  -normalise 
+  662  itksnap
+  663  cd uantwerp_lab/
+  664  cd
+  665  cd uantwerp_lab/
+  666  cd first_project/
+  667  git add .
+  668  git commit -m bug of negative value in some volume
+  669  git commit -m "bug of negative value in some volume"
+  670  git status
+  671  git add .
+  672  git commit -m "bug of negative value in some volume"
+  673  git push origin master 
+  674  git status
+  675  git rm --cached 
+  676  git rm --cached .
+  677  git rm -r --cached .
+  678  itksnap 
+  679  git add src/examplepackage/pipeline.py 
+  680  git commit -m "pipeline modified"
+  681  git push origin master 
+  682  git rm -r --cached .
+  683  git fetch origin
+  684  git branch
+  685  gits status
+  686  git status
+  687  git rm -r --cached .
+  688  clean the last git add
+  689  git reset .
+  690  git status
+  691  git reset .
+  692  git status
+  693  git clean -fd
+  694  git fsck --lost-found
+  695  git status
+  696  cd uantwerp_lab
+  697  cd first_project/
+  698  git status
+  699  git add .
+  700  git status
+  701  git -rm cached
+  702  git -rm cached .
+  703  git rm --cached .
+  704  git rm -r --cached 
+  705  git rm -r --cached .
+  706  git status
+  707  git add .
+  708  sit status
+  709  git status
+  710  git branch
+  711  git checkout pipelino0
+  712  git checkout -b pipeline
+  713  git checkout pipeline 
+  714  git branch
+  715  git push origin pipeline
+  716  cd ..
+  717  cd  ..
+  718  cd first_project/
+  719  LS
+  720  ls
+  721  cd src/
+  722  ls
+  723  cd example
+  724  cd examplepackage/
+  725  ls
+  726  cd ..
+  727  git branch
+  728  git push origin master
+  729  git status
+  730  git rm -r --cached .
+  731  git status
+  732  git branch
+  733  git add .
+  734  git status
+  735  git push origin master
+  736  gitstatus
+  737  git status
+  738  git branch
+  739  git fetch origin
+  740  git checkout
+  741  git status
+  742  git checkout master
+  743  git branch
+  744  git status
+  745  git add .
+  746  git status
+  747  git commi -m "not working git"
+  748  git commit -m "not working git"
+  749  git push origin master 
+  750  git clean
+  751  git clean -d -i
+  752  git status
+  753  git add .
+  754  git status
+  755  git commit -m "bo"
+  756  git branch 
+  757  cd src/examplepackage
+  758  ls
+  759  subl features.py 
+  760  cd 
+  761  cd uantwerp_lab/
+  762  cd first_project/
+  763  ls
+  764  git status
+  765  git add .
+  766  git status
+  767  git push origin master 
+  768  git status
+  769  cd first_project/
+  770  git status
+  771  git add .
+  772  git status
+  773  git commit -a
+  774  git add
+  775  git add .
+  776  git status
+  777  git commit -m "modification try"
+  778  git push origin master 
+  779  git reset --hard
+  780  git add .
+  781  git status
+  782  git push origin master 
+  783  bfg --strip-blobs-bigger-than 50M
+  784  git reset --hard
+  785  git reset HEAD~
+  786  git status
+  787  git branch
+  788  git status
+  789  git stash
+  790  git push origin master 
+  791  bfg --strip-blobs-bigger-than 10M  my-repo.git
+  792  java -jar bfg.jar --strip-blobs-bigger-than 100M some-big-repo.git
+  793  java -jar bfg.jar --strip-blobs-bigger-than 50M first_project.git
+  794  git log --stat origin/master
+  795  git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' HEAD
+  796  git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file/dir>' -f HEAD 
+  797  git rm --cached giant_file
+  798  git rm --cached .
+  799  git rm --cached -r .
+  800  git push origin master 
+  801  git status
+  802  git rm --cached -r .
+  803  git status
+  804  git push origin master 
+  805  Error: Unable to access jarfile bfg.jar
+  806  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 80M /home/visionlab/uantwerp_lab/first_project.git
+  807  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 80M first_project.git
+  808  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 80M https://github.com/robertopao/project_one.git
+  809  git clone --mirror git://example.com/some-big-repo.git
+  810  git clone --mirror https://github.com/robertopao/project_one.git
+  811  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 80M https://github.com/robertopao/project_one.git
+  812  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M https://github.com/robertopao/project_one.git
+  813  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M project_one.git
+  814  cd ..
+  815  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M project_one.git
+  816  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M https://github.com/robertopao/project_one.git
+  817  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M /home/visionlab/uantwerp_lab/project_one.git
+  818  cd project_one.git/
+  819  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M /home/visionlab/uantwerp_lab/project_one
+  820  git reflog expire --expire=now --all && git gc --prune=now --aggressive
+  821  git push
+  822  cd ..
+  823  cd project_one
+  824  ls
+  825  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M first_project
+  826  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M first_project.git
+  827  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M /home/visionlab/uantwerp_lab/first_project.git
+  828  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 100M /home/visionlab/uantwerp_lab/first_project
+  829  cd first_project/
+  830  git push
+  831  git branch
+  832  git status
+  833  git add .
+  834  git commit -m "aaa"
+  835  git push origin master 
+  836  cd ..
+  837  git clone --mirror https://github.com/robertopao/project_one.git
+  838  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 80M /home/visionlab/uantwerp_lab/first_project.git
+  839  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 80M /home/visionlab/uantwerp_lab/first_project
+  840  cd first_project
+  841  git reflog expire --expire=now --all && git gc --prune=now --aggressive
+  842  git push
+  843  pycharm-community 
+  844  git rm -r dwibiascorrect-tmp-5ZWSBA
+  845  git rm -r dwibiascorrect-tmp-29F50D/ dwibiascorrect-tmp-XAZKLM/
+  846  git commit -m "remove unsuful directory"
+  847  git push origin pipeline
+  848  pycharm-community 
+  849  git add .
+  850  git commit -m "after error on opening pycharm"
+  851  git push origin master 
+  852  git branch
+  853  git log --oneline --all --graph --decorate 
+  854  git rm -r --cached .
+  855  git add .
+  856  $ git commit -m "Clean up ignored files"
+  857  git commit -m "Clean up ignored files"
+  858  git push origin master 
+  859  git branch -d pipeline
+  860  git branch -D pipeline
+  861  git status
+  862  git branch
+  863  pycharm-community 
+  864  cd uantwerp_lab/
+  865  cd first_project
+  866  ls
+  867  cd ..
+  868  cd first_project/.idea/
+  869  ls
+  870  rm workspace.xml 
+  871  cd..
+  872  cd ..
+  873  cd .
+  874  cd
+  875  cd uantwerp_lab/first_project
+  876  git add .
+  877  git commit -m "add all the folder from the previous project"
+  878  git push origin master 
+  879  git status
+  880  git add .
+  881  git commi -m "print is added"
+  882  git commit -m "print is added"
+  883  git push origin master 
+  884  pycharm-community 
+  885  cd 
+  886  pycharm-community 
+  887  cd uantwerp_lab/project_one.git/
+  888  cd.idea
+  889  cd /.idea
+  890  ls
+  891  cd 
+  892  cd uantwerp_lab/
+  893  ls
+  894  cd first_project
+  895  ls
+  896  cd  /.ideA
+  897  cd  /.idea
+  898  pycharm-community 
+  899  source activate my_environment
+  900  source activate rob_environment
+  901  sudo apt-get install python-dipy
+  902  python
+  903  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_remove.mif' -strides -1,2,3 
+  904  source activate rob_environment
+  905  python
+  906  conda install -c conda-forge dipy
+  907  python
+  908  mrview 
+  909  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_remove.mif' 
+  910  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_remove.mif' -dwgrad
+  911  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif' 
+  912  source activate rob_environment
+  913  pip install nipype
+  914  itksnap 
+  915  mrview 
+  916  java -jar bfg.jar --strip-blobs-bigger-than 100M uantwerp_lab/first_project.git
+  917  /home
+  918  cd /home/
+  919  ls
+  920  java -jar ho  /home/visionlab/ bfg.jar --strip-blobs-bigger-than 100M uantwerp_lab/first_project.git
+  921  java -jar ho  /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 50M uantwerp_lab/first_project.git
+  922  java -jar /home/visionlab/Downloads/bfg-1.13.0.jar --strip-blobs-bigger-than 50M uantwerp_lab/first_project.git
+  923  cd 
+  924  cd uantwerp_lab/first_project
+  925  git add .
+  926  git status
+  927  git commit -m "deleted big files"
+  928  git push origin master 
+  929  git branch
+  930  git checkout pipeline
+  931  gir add .
+  932  git add .
+  933  git commit -m "before new branch"
+  934  git push
+  935  git status
+  936  git add .
+  937  git status
+  938  git push
+  939  git status
+  940  git reset HEAD~
+  941  git status
+  942  git add .
+  943  git status
+  944  git pull
+  945  git push
+  946  git add .
+  947  git push
+  948  git pull https://github.com/robertopao/project_one.git
+  949  git stash
+  950  git pull https://github.com/robertopao/project_one.git
+  951  git status
+  952  git push
+  953  git branch
+  954  git checkout
+  955  git checkout pipeline
+  956  git push origin pipeline
+  957  git status
+  958  git branch
+  959  git pull
+  960  git pull master pipeline
+  961  git branch
+  962  git pull origin 
+  963  git pull origin pipeline
+  964  git checkout master
+  965  git branch
+  966  git checkout master
+  967  git add .
+  968  git commit -m "not understanding wtf happening"
+  969  git push
+  970  git push origin pipeline
+  971  git checkout master
+  972  git branch
+  973  git merge pipeline
+  974  git status 
+  975  git merge pipeline
+  976  git status
+  977  git add .
+  978  git push origin master
+  979  git status
+  980  git commit -m "nothing"
+  981  git status
+  982  git branch
+  983  git merge pipeline
+  984  git checkout pipeline
+  985  git add .
+  986  git status
+  987  git commit -m "change just in pipeline"
+  988  git push origin pipeline
+  989  git add .
+  990  git commit -m "same as before no change added"
+  991  git push origin pipeline
+  992  git add .
+  993  git commit -m "same as before no change added"
+  994  git pull 
+  995  git push origin pipeline
+  996  git checkout master
+  997  git status
+  998  git push origin master 
+  999  git status
+ 1000  git branch
+ 1001  cd src/examplepackage/
+ 1002  ls
+ 1003  git rm -r dwibiascorrect-tmp-29F50D/ dwibiascorrect-tmp-5ZWSBA/ dwibiascorrect-tmp-XAZKLM/
+ 1004  git commit -m "Remove directory"
+ 1005  git push origin master
+ 1006  git add .
+ 1007  git commit -m "print line removed"
+ 1008  git push origin master
+ 1009  git checkout pipeline
+ 1010  git status
+ 1011  git add .
+ 1012  git status
+ 1013  git commit -m "print line removed on pipline "
+ 1014  git push origin pipeline
+ 1015  git branch
+ 1016  cd  ..
+ 1017  cd ..
+ 1018  git add .
+ 1019  git commit -m "print line removed on pipline "
+ 1020  git add .
+ 1021  git commit -m "print line removed on pipline "
+ 1022  git push origin pipeline
+ 1023  git checkout master
+ 1024  git status
+ 1025  git log --oneline --decorate
+ 1026  git branch pipeline
+ 1027  git checkout pipeline
+ 1028  git log --oneline --decorate
+ 1029  git branch test_branch
+ 1030  git log --oneline --decorate
+ 1031  git branch rm test_branch
+ 1032  git log --oneline --decorate
+ 1033  git branch -rm test_branch
+ 1034  git branch -a
+ 1035  git branch -d rm
+ 1036  git branch -d test_branch 
+ 1037  git log --oneline --decorate
+ 1038  git branch -a
+ 1039  git log --oneline --decorate
+ 1040  git checkout master
+ 1041  git log --oneline --decorate
+ 1042  git branch
+ 1043  ls
+ 1044  cd src/
+ 1045  ls
+ 1046  cd examplepackage/
+ 1047  ls
+ 1048  cd 
+ 1049  pycharm-community 
+ 1050  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.nii.gz' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_converted.mif' 
+ 1051  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_converted.mif' 
+ 1052  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_converted.mif' -gwgrad
+ 1053  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_converted.mif' -dwgrad
+ 1054  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_bvec_bval.nii.gz' -strides -1,2,3 -fslgrad bvecs bvals
+ 1055  mrconvert -fslgrad bvec bval '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_bvec_bval.nii.gz' -strides -1,2,3
+ 1056  mrconvert -export_grad_fsl '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_bvec_bval.nii.gz' -strides -1,2,3
+ 1057  mrconvert -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_bvec_bval.nii.gz' -strides -1,2,3
+ 1058  mrconvert -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  1.txt 2.txt
+ 1059  mrconvert -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.mif'  1.txt 2.txt
+ 1060  mrconvert -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.nii.gz' -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt' -export_grad_fsl bvecs_path bvals_path  
+ 1061  mrconvert -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.nii.gz' -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.mif' 
+ 1062  mrconvert -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.nii.gz' -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0' 
+ 1063  mrconvert -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.nii.gz' -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt' 
+ 1064  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.nii.gz' -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt' 
+ 1065  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_prova.nii.gz' -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt'  
+ 1066  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif' -grad '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt' 
+ 1067  mrinfo
+ 1068  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif' 
+ 1069  mrinfo '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif' -dwgrad
+ 1070  mrinfo -dwgrad '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif' 
+ 1071  mrview 
+ 1072  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_SH.mif' -normalize  
+ 1073  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_SH.mif' -normalise  
+ 1074  mrviews
+ 1075  mrview 
+ 1076  mrcalc '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_mask.mif'  -mult '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_masked.mif' 
+ 1077  mrview 
+ 1078  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_SH.mif' -normalise -force 
+ 1079  mrview 
+ 1080  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif' -grad '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt' -force 
+ 1081  mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_not_normalized.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_not_normalized.mif' -grad '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt' -force 
+ 1082  mrcalc '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0.mif' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_mask.mif' -mult '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_masked_again.mif' 
+ 1083  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_masked_again.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_masked_again_SH.mif' 
+ 1084  mrcalc '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_not_normalized.mif' '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_mask.mif' -mult '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_not_norm_masked_again.mif' 
+ 1085  amp2sh '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_not_norm_masked_again.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0_0_masked_again_SH_last_try.mif' -normalise 
+ 1086  pycharm-community 
+ 1087  mrstats
+ 1088  mrstats -allvolumes '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif'  -output min 
+ 1089  mrstats -allvolumes TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif -output min 
+ 1090  cd /home/visionlab/Desktop/work_dir/registration_folder/
+ 1091  mrstats -allvolumes TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif -output min 
+ 1092  mrstats -allvolumes TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif -output min -debug
+ 1093  mrstats -allvolumes TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif -output min
+ 1094  min=mrstats -allvolumes TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif -output min
+ 1095  min_val=$(mrstats -allvolumes TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif -output min)
+ 1096  max_val=$(mrstats -allvolumes TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif -output max)
+ 1097  mrcalc x -
+ 1098  mrcalc TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif $min_value -subtract -
+ 1099  mrcalc TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif $(min_val -subtract -
+ 1100  mrcalc TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif $min_val -subtract -
+ 1101  mrcalc TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif $min_val -subtract $max_val min_val -subtract -divide - | mrinfo -
+ 1102  mrcalc TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif $min_val -subtract $max_val 4min_val -subtract -divide - | mrinfo -
+ 1103  mrcalc TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif $min_val -subtract $max_val 4min_val -subtract -divide TEST.mif
+ 1104  amp2sh -lmax 6 TEST.mif TEST_sh.mif
+ 1105  amp2sh -lmax 1 TEST.mif TEST_sh.mif
+ 1106  amp2sh -lmax 4 TEST.mif TEST_sh.mif
+ 1107  amp2sh -lmax 4 TEST.mif TEST_sh.mif -force
+ 1108  amp2sh -lmax 6 TEST.mif TEST_sh.mif -force
+ 1109  amp2sh TEST.mif TEST_sh.mif -force
+ 1110  amp2sh -lmax 6 TEST.mif TEST_sh.mif -force
+ 1111  dirstat 
+ 1112  mrinfo
+ 1113  mrinfo ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_11_DTI.mif 
+ 1114  mrinfo ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_11_DTI.mif -dwgrad
+ 1115  mrinfo ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_11_DTI.mif -help
+ 1116  mrinfo ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_11_DTI.mif -export_grad_mrtrix grad.txt
+ 1117  dirstat grad.txt 
+ 1118  mrcat ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_11_DTI.mif ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_13_DTI.mif - |  mrinfo - -export_grad_mrtrix grad.txt
+ 1119  mrcat ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_11_DTI.mif ../../dMRI_data_harmonization/TRO/MIF-raw/TRO_1yRz315_MR1_13_DTI.mif - |  mrinfo - -export_grad_mrtrix grad.txt -force
+ 1120  dirstat grad.txt 
+ 1121  history > command_mr_trix.txt
+ 1122  git shows
+ 1123  git show
+ 1124  cd 
+ 1125  cd /home/visionlab/Documents/
+ 1126  ls
+ 1127  cd 
+ 1128  cd /home/
+ 1129  ls
+ 1130  cd visionlab/
+ 1131  ls
+ 1132  cd uantwerp_lab/
+ 1133  ls
+ 1134  cd first_project/
+ 1135  git show
+ 1136  git branch
+ 1137  git tag -l
+ 1138  git branch -r
+ 1139  mrview
+ 1140  pycharm-community 
+ 1141  dwipreproc '/home/visionlab/Desktop/dMRI_data_harmonization/UZA/DTI-gibbs/UZA_6hmr972_DTI_denoised_gibbs.mif' '/home/visionlab/Desktop/dMRI_data_harmonization/UZA/DTI-gibbs/UZA_6hmr972_DTI_denoised_gibbs_preproc.mif' -rpe_header -eddy_options " --slm=linear " 
+ 1142  eddy
+ 1143  eddy_openmp version
+ 1144  eddy_openmp -version
+ 1145  cd /home/visionlab/dwipreproc-tmp-44IZR2/
+ 1146  ls
+ 1147  cat command.txt 
+ 1148  cat log.txt 
+ 1149  cat error.txt 
+ 1150  eddy_openmp --imain=eddy_in.nii --mask=eddy_mask.nii --acqp=eddy_config.txt --index=eddy_indices.txt --bvecs=bvecs --bvals=bvals --topup=field --slm=linear --out=dwi_post_eddy
+ 1151  cat eddy_config.txt 
+ 1152  cat eddy_indices.txt 
+ 1153  ls
+ 1154  cat log.txt 
+ 1155  ls
+ 1156  cd ..
+ 1157  cd
+ 1158  cd Desktop/dMRI_data_harmonization/UZA/MIF-raw/
+ 1159  ls
+ 1160  mrview UZA_6hmr972_MR1_*
+ 1161  history > /home/visionlab/Desktop/with_ben_3.txt
