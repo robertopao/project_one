@@ -234,3 +234,53 @@ def bias_correction(list_dest_masked,flag_bias):
             print("ok")
     return list_dest_bias
 
+
+
+def remove_negative(list_dest_bias,flag_bias):
+    list_dest_bias=list()
+    for i in range (len(list_dest_masked)):
+        s = "/"
+        seq = list_dest_masked[i].split('/')
+        temp = s.join(seq[0:6])+'/DTI-bias/'
+        temp_1=list_dest_masked[i].split('/')[-1].split('.')[0]+'_bias.mif'
+        destination_masked = temp + temp_1
+        list_dest_bias.append(destination_masked)
+        if flag_bias == True:
+            bashCommand =("dwibiascorrect -ants " +list_dest_masked[i]+' '+destination_masked)
+            os.system(bashCommand)
+            print("ok")
+    return list_dest_bias
+
+
+
+
+
+
+
+
+
+def negative_remove():
+    #img = nibabel.load('/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty.nii.gz')
+    #data = img.get_data()
+    #prova=(data-data.min())/(data.max()-data.min())
+    #data = data.clip(min=0) #del the min value
+    #clipped_img = nibabel.Nifti1Image(prova, img.affine, img.header)
+    #nibabel.save(clipped_img,'/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_0.nii.gz')
+
+
+    '''
+    import nipype.interfaces.mrtrix as mrt
+    mrconvert = mrt.MRConvert()
+    mrconvert.inputs.in_file = '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias.mif'
+    mrconvert.inputs.out_filename = '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_bias_0.nii'
+    mrconvert.run()
+
+
+    mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified_non_negative.nii.gz'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_nifty_modified__non_negative.mif' -grad '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt' -force
+    mrconvert '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked.mif'  '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_prova.nii.gz' -export_grad_mrtrix '/home/visionlab/Desktop/work_dir/registration_folder/TRO_1yRz315_DTI_denoised_gibbs_preproc_masked_0_0_0.txt'
+     /home/visionlab/mrtrix3-registration_multi_contrast/bin/population_template sh_b0000 sh_b0000.mif + sh_b1000 sh_b1000.mif -mask_dir mask -warp_dir warp -voxel_size 2
+
+    '''
+
+    return
+
